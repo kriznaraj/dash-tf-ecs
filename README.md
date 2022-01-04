@@ -1,6 +1,6 @@
-# Docker Dash (Plotly)
+# Dash Docker ECS
 
-Dockerize a Python Dash app for quick prototyping.
+
 
 ## Build and run
 
@@ -28,4 +28,11 @@ Install the app requirements for development to get better editor support.
 
 ```sh
 pipenv install -r app/requirements.txt
+```
+
+
+## Deploy in AWS ECS
+
+```sh
+terraform apply
 ```
